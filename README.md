@@ -15,5 +15,6 @@ Grupa studencka: WELE18EX1N1
 # Pytania do zadań z instrukcji
 
 Zadanie 2-2-1
-Odpowiedź: Uruchamiamy "pustą pętlę" gdzie dekeremntujemy zmienna, wykonywanie takiej pętli zajmuje czas który jest swoistego rodzaju opóźnieniem.
+Odpowiedź: Uruchamiamy "pustą pętlę" gdzie dekeremntujemy zmienna, wykonywanie takiej pętli zajmuje czas który jest swoistego rodzaju opóźnieniem. Ilośc wykonań okresla czas opóźnienia.
+
 
