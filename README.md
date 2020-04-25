@@ -13,4 +13,5 @@ Numer albumu: 12345
 Grupa studencka: WEL18EX1N1
 
 # Pytania do zadań z instrukcji
-
+1. W jaki sposób można określić czas trwania opóźnienia zrealizowanego z użyciem pętli?
+ODP: Urzywamy mills z biblioteki arduino inną opcją jest liczymy ilość przewań 
