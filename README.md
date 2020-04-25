@@ -9,7 +9,7 @@ Data: 24.04.2020 r.
 # Informacje o studencie
 
 Imię i nazwisko studenta: Mariusz Sobczak
-Numer albumu: 12345  
+Numer albumu: 7255
 Grupa studencka: WEL18EX1N1
 
 # Pytania do zadań z instrukcji
