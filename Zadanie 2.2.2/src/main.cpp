@@ -3,12 +3,12 @@
 
 int main()
 {
-  DDRB |= 0xFF;
+  DDRD |= 0xFF;
   while (1)
   {
     for (uint8_t i = 0; i < LED_LENGTH; i++)
     {
-      PORTD |= (1<<5);
+      PORTD = (1<< i);
       for (uint32_t j = 0x1FFFF; j > 0 ; j--)
       {
       __asm__ __volatile("nop");
@@ -16,7 +16,7 @@ int main()
       
     }
     
-    for (uint8_t i = 0; i < LED_LENGTH; i++)
+    for (uint8_t i = 1; i < (LED_LENGTH -1); i++)
     {
       PORTD = (PORTD >> 1);
       for (uint32_t j = 0x1FFFF; j > 0 ; j--)
