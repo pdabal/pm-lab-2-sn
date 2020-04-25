@@ -13,7 +13,7 @@ void delay() {
  __asm__ __volatile__("nop");
  }
 
-int main() { 
+int main() {  
 	DDRB &= !(1 << 0); // Skasowanie PB0 (D8) - praca jako wejście
 	DDRB |= ( 1<< 5); // Ustanienie PB5 (D13) - praca jako wyjście
 	while (1)
