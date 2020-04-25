@@ -10,13 +10,7 @@ Data: 24.04.2020 r.
 
 Imię i nazwisko studenta: Hubert Żbikowski
 Numer albumu: 72735  
-Grupa studencka: WEL18EX1N1
+Grupa studencka: WELE18EX1N1
 
 # Pytania do zadań z instrukcji
-
-Zadanie 2-2-1: W jaki sposób można określić czas trwania opóźnienia zrealizowanego z użyciem pętli?
-
-Należy policzyć ilość przerwań bądź w bibliotekach Arduino użyć millsów.
-
-Zadanie 2-2-2:
 
