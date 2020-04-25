@@ -8,9 +8,9 @@ Data: 24.04.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Imię Nazwisko  
-Numer albumu: 12345  
-Grupa studencka: WELE18xyS1
+Imię i nazwisko studenta: Maciej Kuźmiński
+Numer albumu: 72706 
+Grupa studencka: WELE18EX1N1
 
 # Pytania do zadań z instrukcji
 
