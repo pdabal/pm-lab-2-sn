@@ -8,9 +8,13 @@ Data: 24.04.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Imię Nazwisko  
-Numer albumu: 12345  
-Grupa studencka: WELE18xyS1
+Imię i nazwisko studenta: Kamil Cendrowski  
+Numer albumu: 73150  
+Grupa studencka: WEL18EX1N1
 
 # Pytania do zadań z instrukcji
+
+1. W jaki sposób można określić czas trwania
+opóźnienia zrealizowanego z użyciem pętli?
+Liczymy ilość przerwań lub używamy mills z bibliotek arduino.
 
