@@ -14,3 +14,4 @@ Grupa studencka: WELE18EX1N1
 
 # Pytania do zadań z instrukcji
 
+Odpowiedź do 2.2.1 - Czas trwania pętli można zmienić, poprzez zmianę wartości zmiennej i oraz ile pętla ma odliczac od tej liczby. 
