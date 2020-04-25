@@ -1,43 +1,31 @@
 #include <avr/io.h>
-
-
-uint8_t ledState[] = {0xFF, 0x7E, 0x3C, 0x18, 0x00, 0x18, 0x3c, 0x7E};
-uint8_t *pLedState = ledState;
+#define SOLUTION 0
+uint8_t button;
 bool state = true;
 
-void togglePinD13(bool *state)
-{
-  PORTB = (*state << 5);
-  *state= !(*state);
-}
-
-void delay()
-{
-for (uint32_t j= 0x2FFFF; j > 0; j--)
-  {
-   __asm__ __volatile__("nop");
-  }
-}
-
-int main()
-{
-  DDRB |= (1 << 5);
-  DDRD |= 0XFF;
-  while (1)
-  {
-	togglePinD13(&state);
-	delay();
-  	for (uint8_t i=0; i < sizeof(ledState); i++)
-	{
-	 PORTD = ledState[i];
-	 delay();
+void togglePinD13(bool * state) { // Zmiana stanu wyjścia D13
+	PORTB = (*state << 5);
+	*state = !(*state);
 	}
-	pLedState = ledState;
-	for (uint8_t i = 0; i < sizeof(ledState); i++)
+
+void delay() {
+ for (uint32_t j = 0x1FFFF; j > 0; j--)
+ __asm__ __volatile__("nop");
+ }
+
+int main() {
+	DDRB &= !(1 << 0); // Skasowanie PB0 (D8) - praca jako wejście
+	DDRB |= ( 1<< 5); // Ustanienie PB5 (D13) - praca jako wyjście
+	while (1)
 	{
-	PORTD = *pLedState;
-	pLedState++;
-	delay();
+#if (SOLUTION == 0)	
+	button = (PINB & (1 << PINB0)); // Odczytanie stanu PB0
+	if (button == 0) { // Jeżeli przycisk puszczony - przełącz
+	 togglePinD13(&state); // Zmiana stanu PB5
+	 delay(); // PAUZA
 	}
-    }
+	else
+	 delay(); // PAUZA
+#endif
+   }
 }
