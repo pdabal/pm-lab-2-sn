@@ -13,4 +13,4 @@ Numer albumu: 72721
 Grupa studencka: WEL18EX1N1
 
 # Pytania do zadań z instrukcji
-
+Zad. 2-2-1 -
