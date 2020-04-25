@@ -18,5 +18,4 @@ Zadanie 2-2-1: W jaki sposób można określić czas trwania opóźnienia zreali
 
 Należy policzyć ilość przerwań bądź w bibliotekach Arduino użyć millsów.
 
-Zadanie 2-2-2:
 
