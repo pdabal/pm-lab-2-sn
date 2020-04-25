@@ -13,4 +13,6 @@ Numer albumu: 72723
 Grupa studencka: WELE18EX1N1
 
 # Pytania do zadań z instrukcji
+1.W jaki sposób można określić czas trwania opóźnienia zrealizowanego z użyciem pętli?
+    - Wywołanie funkcji delay(…) zastąpione zostało pętlą do…while, która dekrementuje zmienną i tak długo aż ta osiągnie wartość 0, za pomocą while(millis()<=endTime) możemy określić czas trwania opóźnienia.
 
